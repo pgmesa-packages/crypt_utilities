@@ -9,12 +9,10 @@ with open("requirements.txt", "r", encoding='utf-16') as fh:
     requirements = []
     for line in req:
         requirements.append(line.replace("\n", "")) # \ufeff
-    
-print(setuptools.find_packages())    
 
 setuptools.setup(
     name='crypt_utilities',  
-    version='0.0.3',
+    version='0.0.4',
     author="Pablo García Mesa",
     author_email="pgmesa.sm@gmail.com",
     description="An easy and simplified cryptographic utility package (fernet, RSA, hashes...)",
