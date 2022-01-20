@@ -22,7 +22,6 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 def generate_key() -> bytes:
     return Fernet.generate_key()
 
-
 def encrypt(data:bytes, key:bytes) -> bytes:
     """Fernet key must be 32 url-safe base64-encoded bytes"""
     fernet = Fernet(key)
