@@ -14,7 +14,7 @@ print(setuptools.find_packages())
 
 setuptools.setup(
     name='crypt_utilities',  
-    version='0.0.1',
+    version='0.0.3',
     author="Pablo García Mesa",
     author_email="pgmesa.sm@gmail.com",
     description="An easy and simplified cryptographic utility package (fernet, RSA, hashes...)",
