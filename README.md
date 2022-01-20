@@ -1,4 +1,4 @@
 # Cryptographical utility package
 
-An easy and simplified cryptographical utility package (fernet, RSA, hashes...) with some
-common encryption stuff coded in functions
+An easy and simplified cryptographic utility package (fernet, RSA, hashes...) with some
+common encryption stuff already programmed
