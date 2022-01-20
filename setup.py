@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding='utf-16') as fh:
     req = fh.readlines()
     requirements = []
     for line in req:
-        requirements.append(line.replace("\n", ""))
+        requirements.append(line.replace("\n", "")) # \ufeff
     
 print(setuptools.find_packages())    
 
