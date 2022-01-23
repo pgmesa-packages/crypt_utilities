@@ -37,7 +37,7 @@ def load_pem_private_key (...
 # -- John
 secret_msg = "Very secret msg to send"
 public_key = load_pem_public_key(file_path="./public_key")
-encrypted:bytes = rsa_encrypt(secret_stuff.encode(), public_key)
+encrypted:bytes = rsa_encrypt(secret_msg.encode(), public_key)
 ...
 # Decrypt with RSA (asymmetric)
 # -- Michael
