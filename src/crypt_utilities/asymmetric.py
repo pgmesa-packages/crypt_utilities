@@ -63,7 +63,7 @@ def load_pem_public_key(public_key_path:Union[str, Path]) -> RSAPublicKey:
         )
     return public_key
 
-def rsa_encrypt(message:bytes, public_key:RSAPublicKey):
+def rsa_encrypt(message:bytes, public_key:RSAPublicKey) -> bytes:
     ciphertext = public_key.encrypt(
         message,
         padding.OAEP(
