@@ -4,7 +4,7 @@ An easy and simplified cryptographic utility package (fernet, RSA, hashes...) wi
 common encryption stuff already programmed (very simple and with common secure parameters by default). 
 It uses the 'cryptography' module
 
-### Instalation
+### Installation
 ```
 pip install crypt-utilities
 ```
