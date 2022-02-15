@@ -12,7 +12,7 @@ with open("requirements.txt", "r", encoding='utf-16') as fh:
 
 setuptools.setup(
     name='crypt_utilities',  
-    version='0.0.5',
+    version='0.0.6',
     author="Pablo García Mesa",
     author_email="pgmesa.sm@gmail.com",
     description="An easy and simplified cryptographic utility package (fernet, RSA, hashes...)",
